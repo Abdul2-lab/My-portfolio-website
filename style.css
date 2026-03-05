@@ -564,3 +564,51 @@
       .project-card { flex-direction: column; }
       .project-img { width: 100%; height: 180px; }
     }
+
+/* Additional styles for inline elements */
+.hero-social-links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.twitter-icon {
+  color: #1DA1F2;
+}
+
+.check-icon {
+  color: #2563eb;
+}
+
+.twitter-badge {
+  background: #e6f0ff;
+  border-radius: 30px;
+  padding: 0.2rem 1rem;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-text {
+  font-weight: 500;
+}
+
+.phone-icon {
+  color: #2563eb;
+}
+
+.footer-info {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #475569;
+}
+
+.react-icon {
+  width: 18px;
+}
